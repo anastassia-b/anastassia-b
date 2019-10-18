@@ -25,6 +25,10 @@ main {
   border: 2px solid lightcoral;
 }
 
+.emoji {
+  margin: 0px 12px;
+}
+
 a {
   margin: 0px 12px;
 }

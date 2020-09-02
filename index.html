@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=0.8" />
     <meta name="description" content="anastassia bobokalonova" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./icon.png" type="image/x-icon" />
     <link
       href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
       rel="stylesheet"
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
     <script>
-      !(function() {
+      !(function () {
         var analytics = (window.analytics = window.analytics || []);
         if (!analytics.initialize)
           if (analytics.invoked)
@@ -37,10 +37,10 @@
               "page",
               "once",
               "off",
-              "on"
+              "on",
             ];
-            analytics.factory = function(t) {
-              return function() {
+            analytics.factory = function (t) {
+              return function () {
                 var e = Array.prototype.slice.call(arguments);
                 e.unshift(t);
                 analytics.push(e);
@@ -51,7 +51,7 @@
               var e = analytics.methods[t];
               analytics[e] = analytics.factory(e);
             }
-            analytics.load = function(t, e) {
+            analytics.load = function (t, e) {
               var n = document.createElement("script");
               n.type = "text/javascript";
               n.async = !0;
@@ -71,18 +71,26 @@
     </script>
     <title>anastassia bobokalonova</title>
   </head>
+
   <body>
     <main>
-      <div class="section">
+      <div class="unit">
         <span class="emoji">🙆‍♀️</span>
         <p>heyo I'm anastassia</p>
       </div>
-
-      <div class="section">
+      <div class="unit secret">
+        <span class="emoji">🎨</span>
+        <p>
+          <a href="https://anastassia.info/feeling-theory"
+            >quarantine paintings</a
+          >
+        </p>
+      </div>
+      <div class="unit">
         <span class="emoji">💌</span>
         <p>email.anastassia@gmail.com</p>
       </div>
-      <div class="section">
+      <div class="unit">
         <span class="emoji">🌎</span>
         <a
           target="_blank"

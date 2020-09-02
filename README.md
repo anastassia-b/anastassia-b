@@ -1,9 +1,5 @@
 ## anastassia.info
 
 <p align="center">
-   <img src="./anastassia.info.png" width="360px"/>
-</p>
-
-<p align="center">
-  <a href="https://anastassia.info">anastassia.info</a>
+   <a href="https://anastassia.info"><img src="./anastassia.info.png" width="420px"/></a>
 </p>
